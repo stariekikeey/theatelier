@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="shell-type" content="web_standard" />
+  <title>The Atelier &amp; Heritage — Lunair Atelier Paris</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================
+       HEADER
+       ============================================ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <a class="brand" href="index.html" data-path="home">
+          <img class="brand-logo"
+               alt="Lunair Atelier Logo"
+               src="https://lh3.googleusercontent.com/aida/ALJJyrBITFURlPIqtC_SgsFTtdDCk5y5gxR5q6C8rBlNUEVeB5dvrodWLPYG5x-qph4yQRxiM8f83Q_Wax0hekJeUtmMPJQnqVkDMOvAS1qMxwdGDbdGCRVsDwn6nX2TcfcCpa6dk564JLIGGFHgvZrHTLVm2TmhPWMqobUew8uvAWv6dhOxSZpjjGq_faBLdWM_01yl0V_Kg2DEw4dnYjCdOB1eOlb6YbVlhdwYu4qGer4" />
+          <span class="brand-name">Lunair Atelier</span>
+        </a>
+        <span class="brand-location">Paris</span>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" data-path="home" href="index.html">Home</a>
+        <a class="nav-link active" data-path="about" href="about.html">About</a>
+        <a class="nav-link" data-path="the-groom-collection" href="men.html">Men</a>
+        <a class="nav-link" data-path="the-bridal-collection" href="women.html">Women</a>
+        <a class="nav-link" data-path="contact-and-appointment" href="contact.html">Contact &amp; Appointment</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch">
+          <button type="button" class="active">EN</button>
+          <span class="lang-sep">|</span>
+          <button type="button">FR</button>
+        </div>
+        <a class="btn-appointment" data-path="book-an-appointment" href="#">Book an Appointment</a>
+        <div class="user-avatar" aria-hidden="true">
+          <span class="material-symbols-outlined" style="font-size: 18px;">person</span>
+        </div>
+        <button class="menu-btn" type="button" aria-label="Open Menu">
+          <span class="material-symbols-outlined" style="font-size: 24px;">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================
+       MAIN
+       ============================================ -->
+  <main style="width: 100%; padding-top: 5rem; background-color: var(--color-surface);">
+    <div style="display: flex; flex-direction: column; width: 100%;">
+
+      <!-- ---------- BREADCRUMB ---------- -->
+      <section class="container" style="padding-top: 2rem; padding-bottom: 1rem;">
+        <div class="breadcrumb-row">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a data-path="home" href="index.html">Home</a>
+            <span class="sep">/</span>
+            <span class="muted">About</span>
+            <span class="sep">/</span>
+            <span class="current">The Atelier &amp; Heritage</span>
+          </nav>
+          <div class="location-badge">
+            <span class="location-dot"></span>
+            <span class="location-text">Salon Faubourg N° 18 · Paris VIIIe</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- EDITORIAL HERO ---------- -->
+      <section class="container" style="padding-top: 2.5rem; padding-bottom: var(--space-xl);">
+        <div class="hero-grid">
+          <div class="hero-title">
+            <span class="eyebrow eyebrow--wider text-secondary">The Atelier &amp; Heritage</span>
+            <h1>Crafting Timeless Poetry in Silk, Lace, and Parisian Light</h1>
+          </div>
+          <div class="hero-desc">
+            <p>Behind the gilded carved portals of 18 Rue du Faubourg Saint-Honoré, Lunair Atelier honors the sacred geometry of the Parisian bridal vow. Here, pattern drafts meet moonlight, whispered silence, and the quiet devotion of haute couture.</p>
+            <div class="hero-meta">
+              <span>Est. 2011 · Paris</span>
+              <span class="hero-meta-line"></span>
+              <span>By Appointment Only</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Full Bleed Atelier Canvas Showcase -->
+        <div class="showcase">
+          <div class="showcase-grid">
+            <div class="showcase-media">
+              <img alt="Lunair Atelier Main Fitting Salon in Paris"
+                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxT9toz62V3XWD2f7F3GgAXKmF-03l0RxDQ-J5Cp4w_yGTddFmYlgjFUZuT3iNORIpRUr_yyvq2U8TX_Otiwt9m8xpBXBsxjDXzricBAsd2NK2yku-Irozp2nNK0FtZydY5ah5JuntX13E83JToa-AMyWdOzuNL1eVftPm1rsOZI9A2CfMlJYutGBCvwvEmnoACtBo9PuvBljxuo02d8E3f3o2BtMklZiOn6UfFes" />
+              <div class="showcase-caption">
+                <span class="showcase-caption-eyebrow">Archive Room · Salons Privés</span>
+                <p>Where bridal silhouettes are measured by bespoke pattern paper, daylight angles, and movement trials.</p>
+              </div>
+            </div>
+            <div class="showcase-panel">
+              <div>
+                <span class="principles-header">Atelier Principles</span>
+                <div class="principles-list">
+                  <div class="principle-item">
+                    <span class="principle-num">01</span>
+                    <div class="principle-body">
+                      <h4>Sartorial Weightlessness</h4>
+                      <p>Internal silk organza corsetry crafted without steel boning constraint.</p>
+                    </div>
+                  </div>
+                  <div class="principle-item">
+                    <span class="principle-num">02</span>
+                    <div class="principle-body">
+                      <h4>Living Heirlooms</h4>
+                      <p>Certified GOTS mulberry silks and certified Calais-Caudry lacework.</p>
+                    </div>
+                  </div>
+                  <div class="principle-item">
+                    <span class="principle-num">03</span>
+                    <div class="principle-body">
+                      <h4>The 180-Hour Pledge</h4>
+                      <p>Each bespoke commission represents between 120 to 220 hours of single-needle hand stitchery.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="principles-footer">
+                <span>Handcrafted in Paris</span>
+                <span>N° 847 / B</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- GENESIS ---------- -->
+      <section class="section section--surface-lowest container">
+        <div class="genesis-grid">
+          <div class="genesis-narrative">
+            <div class="genesis-heading">
+              <span class="eyebrow text-secondary" style="letter-spacing: 0.22em;">The Genesis of the Name</span>
+              <h2>The Radiance of Moonlight Over Parisian Limestone</h2>
+            </div>
+            <p class="body-lg text-on-surface-variant">
+              Born from the French <em>lunaire</em>—celestial, quiet, bathed in silver illumination—Lunair Atelier was conceived during a midnight crossing of Pont des Arts. We observed how moonlight softened Paris’s sharp classical stone colonnades into luminous, breathless poetry.
+            </p>
+            <p class="body-md text-on-surface-variant">
+              We sought to transpose that exact optical grace into modern nuptial couture. Too often, bridal gowns feel architectural yet suffocating, or fluid yet lacking permanence. Lunair exists to harmonise structural Parisian rigor with incandescent, weightless romance.
+            </p>
+            <div class="metrics-grid">
+              <div class="metric">
+                <span class="metric-value">100%</span>
+                <span class="metric-label">Certified GOTS Silk Crepe</span>
+                <p class="metric-desc">Sourced exclusively from heritage French &amp; Italian micro-mills.</p>
+              </div>
+              <div class="metric">
+                <span class="metric-value">1920s</span>
+                <span class="metric-label">Vintage Lace Archives</span>
+                <p class="metric-desc">Private repository of authentic Lyon tulle and Caudry embroideries.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="genesis-gallery">
+            <div class="gallery-primary">
+              <div class="gallery-card gallery-card--tall">
+                <img alt="Artisanal Hand-Sewn Lace Detail"
+                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqqDAUxJJHYdWSHjiSqN3KmEDgKOmg3arWdgQnepvD8hdCCrG84iCBscNzVTWMedkxhdtD7J-D01puCGE0077rP57ATNpz4H_x7Ihk_QZS8Rgx799toqydCY6WD1x3ZaPaI8GatObpHeEGw53YxpGM51ZnV9ciSOSRM6N5YKpyvj3OTFlPtgDjUVHS9YgS-5w1exWyl3lXf0e0-4l_DIy_ksONOWnla-9jq07g3g8" />
+                <div class="gallery-caption"><span>Detail · Hand-Plissée Gauze</span></div>
+              </div>
+              <p>Every fold is draped directly onto the living human form before single-stitch basting.</p>
+            </div>
+
+            <div class="gallery-secondary">
+              <div class="gallery-card gallery-card--short">
+                <img alt="Bespoke Milanese Buttonhole Detail"
+                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKUwWBrbDXcNPeSF0AF9ui8eFmL6b35UxYnjIOMLreChWX88DUyJETMWdEVmBsOMSBStkmD_tb5D13P2h3XtWeIRkR8RWYbbvUiwJMJBUCuCBrfpTOmjw3Bat1oIP3AX8x_JRwHQlcXSYb3BVMqVl2DW2BoH3H3hNiTUiblxgEgE4k2WRW48LiExgcL_O2lFGGDsmGwkRKsLkfttcpqJllzFvEZxTkBo9f7HIvtJQ" />
+                <div class="gallery-caption"><span>The Milanese Stitch</span></div>
+              </div>
+              <div class="creed-card">
+                <span class="eyebrow">The Atelier Creed</span>
+                <p>"To dress a vow is to translate an invisible eternal promise into a tangible work of tactile art."</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Director Quote -->
+        <div class="quote-block">
+          <div class="quote-mark">“</div>
+          <blockquote class="quote-text">
+            "We do not simply construct wedding attire; we sculpt an enduring heirloom for the sacred sanctuary of your vows."
+          </blockquote>
+          <div class="quote-author">
+            <span class="quote-author-name">Éléonore de Lunel</span>
+            <span class="quote-author-role">Founder &amp; Creative Director · Paris</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- 4 SIGNATURE PILLARS ---------- -->
+      <section class="section container">
+        <div class="pillars-header">
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <span class="eyebrow text-secondary" style="letter-spacing: 0.22em;">Our Repertoire</span>
+            <h2>The 4 Signature Pillars of Service</h2>
+          </div>
+          <p>From initial pattern canvas fitting to destination dressing at villa balconies, our four core disciplines deliver singular Parisian intimacy.</p>
+        </div>
+
+        <div class="pillars-grid">
+          <!-- Pillar 1 -->
+          <div class="pillar-card">
+            <div>
+              <div class="pillar-top">
+                <span class="pillar-number">01</span>
+                <span class="pillar-label">Bridal Couture</span>
+              </div>
+              <h3 class="pillar-title">Haute Couture Wedding Dress</h3>
+              <p class="pillar-desc">Bespoke bridal gowns &amp; ready-to-wear silhouettes engineered with featherlight corsetry, bias-cut mulberry crepes, and diaphanous Lyon organza.</p>
+              <ul class="pillar-list">
+                <li>4 private toile fittings</li>
+                <li>Custom veil embroidery monogram</li>
+                <li>Zero-iron micro-crepe engineering</li>
+              </ul>
+            </div>
+            <div class="pillar-card-footer">
+              <a class="btn-link" data-path="the-bridal-collection" href="women.html">
+                Explore Bridal <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="pillar-card">
+            <div>
+              <div class="pillar-top">
+                <span class="pillar-number">02</span>
+                <span class="pillar-label">Sartorial Groom</span>
+              </div>
+              <h3 class="pillar-title">Made-to-Measure Groom's Tailoring</h3>
+              <p class="pillar-desc">Savile Row precision meets Parisian flair: handcrafted morning coats, silk-lapel barathea tuxedos, and double-twisted Biella wool ensembles.</p>
+              <ul class="pillar-list">
+                <li>Full horsehair floating canvas</li>
+                <li>Bespoke Sea Island cotton shirts</li>
+                <li>Horn &amp; mother-of-pearl buttons</li>
+              </ul>
+            </div>
+            <div class="pillar-card-footer">
+              <a class="btn-link" data-path="the-groom-collection" href="men.html">
+                Explore Groom <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="pillar-card">
+            <div>
+              <div class="pillar-top">
+                <span class="pillar-number">03</span>
+                <span class="pillar-label">Archival Care</span>
+              </div>
+              <h3 class="pillar-title">Bridal Alteration &amp; Architectural Styling</h3>
+              <p class="pillar-desc">Complimentary private silhouette sculpting, historic heirloom reconfiguration, veil restyling, and gentle antique lace conservation.</p>
+              <ul class="pillar-list">
+                <li>Heirloom gown modern remodeling</li>
+                <li>Archival preservation boxing</li>
+                <li>Posture &amp; walking train kinetics</li>
+              </ul>
+            </div>
+            <div class="pillar-card-footer">
+              <a class="btn-link" data-path="bespoke-and-alterations" href="#">
+                Learn Alterations <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Pillar 4 -->
+          <div class="pillar-card">
+            <div>
+              <div class="pillar-top">
+                <span class="pillar-number">04</span>
+                <span class="pillar-label">Global Concierge</span>
+              </div>
+              <h3 class="pillar-title">Private Concierge &amp; Destination Fitting</h3>
+              <p class="pillar-desc">Personalized white-glove dressing attendance and insured climate-controlled trunk shipping for Lake Como, Côte d'Azur, and Tuscan nuptials.</p>
+              <ul class="pillar-list">
+                <li>Day-of on-site dressing stylist</li>
+                <li>Bespoke cedarwood wardrobe case</li>
+                <li>Direct WhatsApp concierge hotline</li>
+              </ul>
+            </div>
+            <div class="pillar-card-footer">
+              <a class="btn-link" data-path="contact-and-appointment" href="contact.html">
+                Inquire Concierge <span class="material-symbols-outlined">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- HIERARCHY ---------- -->
+      <section class="section section--surface-low container">
+        <div class="hierarchy-header">
+          <span class="eyebrow text-secondary" style="letter-spacing: 0.24em;">The Atelier Governance</span>
+          <h2>Bespoke Structure &amp; Team Architecture</h2>
+          <p>A seamless continuum of artistic vision and master execution, structured to guarantee intimacy from first silhouette sketch to the altar steps.</p>
+        </div>
+
+        <div class="hierarchy">
+          <!-- Tier 1 -->
+          <div class="founder-card">
+            <div class="founder-top">
+              <span class="founder-eyebrow">Supreme Direction</span>
+              <span class="founder-badge">Faubourg Studio</span>
+            </div>
+            <h4 class="founder-name">Éléonore de Lunel</h4>
+            <p class="founder-role">Founder &amp; Creative Director</p>
+            <p class="founder-desc">Directing artistic philosophy, archival curation, and final bridal silhouette commissions.</p>
+          </div>
+
+          <div class="hierarchy-stem"></div>
+
+          <div class="hierarchy-rail">
+            <div class="hierarchy-rail-line"></div>
+            <div class="hierarchy-pins">
+              <div class="hierarchy-pin"><div class="hierarchy-pin-line"></div></div>
+              <div class="hierarchy-pin"><div class="hierarchy-pin-line"></div></div>
+              <div class="hierarchy-pin"><div class="hierarchy-pin-line"></div></div>
+              <div class="hierarchy-pin"><div class="hierarchy-pin-line"></div></div>
+            </div>
+          </div>
+
+          <!-- Tier 2 -->
+          <div class="hierarchy-branches">
+            <div class="branch-card">
+              <span class="branch-label">Couture Bridal</span>
+              <h5 class="branch-name">Julien Moreau</h5>
+              <p class="branch-role">Head Designer (Womenswear)</p>
+              <div class="branch-list">
+                <span>· Silk organza drapery</span>
+                <span>· Pattern canvas sculpting</span>
+                <span>· French lace archives</span>
+              </div>
+            </div>
+            <div class="branch-card">
+              <span class="branch-label">Bespoke Tailoring</span>
+              <h5 class="branch-name">Henri Vaneau</h5>
+              <p class="branch-role">Head Tailor (Menswear)</p>
+              <div class="branch-list">
+                <span>· Hand-canvassed chest pieces</span>
+                <span>· Biella wool sourcing</span>
+                <span>· Milanese buttonholes</span>
+              </div>
+            </div>
+            <div class="branch-card">
+              <span class="branch-label">Salon &amp; Patronage</span>
+              <h5 class="branch-name">Camille Laurent</h5>
+              <p class="branch-role">Client Experience Manager</p>
+              <div class="branch-list">
+                <span>· Private salon appointments</span>
+                <span>· Champagne degustation</span>
+                <span>· Nuptial fittings schedule</span>
+              </div>
+            </div>
+            <div class="branch-card">
+              <span class="branch-label">Global Logistics</span>
+              <h5 class="branch-name">Sophie Delacroix</h5>
+              <p class="branch-role">Operations &amp; Marketing</p>
+              <div class="branch-list">
+                <span>· International destination trunks</span>
+                <span>· Vogue &amp; Vanity Fair press</span>
+                <span>· Strict privacy protocol</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- TEAM PROFILES ---------- -->
+      <section class="section container">
+        <div class="team-header">
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            <span class="eyebrow text-secondary" style="letter-spacing: 0.24em;">The Artisans &amp; Custodians</span>
+            <h2>Meet the Parisian Quintet</h2>
+          </div>
+          <p>Every silhouette passing through Lunair is touched exclusively by masters of their discipline, carrying decades of haute couture pedigree.</p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Profile 1: Éléonore (Wide) -->
+          <div class="profile-card profile-card--wide">
+            <div class="profile-media">
+              <img alt="Gabriella Kiarra, Founder &amp; Creative Director"
+                   src="/imges/foto kiarra.jpeg" />
+              <span class="profile-tag">Direction</span>
+            </div>
+            <div class="profile-body">
+              <div>
+                <span class="profile-overline">18 Years Haute Couture</span>
+                <h3 class="profile-name">Gabriella Kiarra</h3>
+                <p class="profile-role">Founder &amp; Creative Director</p>
+                <p class="profile-bio">Mastermind behind Lunair's poetic silhouettes, formerly of Chanel Haute Couture. She approaches each bridal pattern as an intimate dialogue between emotion and proportion.</p>
+              </div>
+              <div class="profile-footer">
+                <span class="profile-footer-label">Favorite Medium</span>
+                <span>Heavy washed silk faille &amp; vintage metallic thread</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 2: Julien (Wide) -->
+          <div class="profile-card profile-card--wide">
+            <div class="profile-media">
+              <img alt="Aristawati skr, Head Designer (Womenswear)"
+                   src="/imges/foto arista.jpeg" />
+              <span class="profile-tag">Womenswear</span>
+            </div>
+            <div class="profile-body">
+              <div>
+                <span class="profile-overline">Sculptural Drapery</span>
+                <h3 class="profile-name">Aristawati skr</h3>
+                <p class="profile-role">Head Designer (Womenswear)</p>
+                <p class="profile-bio">Specialist in gravity-defying interior corsetry and French Chantilly lace. Trained in Lyon, Julien sculpts gowns that flow naturally with the bride's cadence.</p>
+              </div>
+              <div class="profile-footer">
+                <span class="profile-footer-label">Signature Technique</span>
+                <span>Hidden illusion boning &amp; hand-frayed georgette hems</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 3: Henri (Tall) -->
+          <div class="profile-card profile-card--tall">
+            <div class="profile-media">
+              <img alt="Helsa, Head Tailor (Menswear)"
+                   src="/imges/foto helsa.jpeg" />
+              <span class="profile-tag">Bespoke Groom</span>
+            </div>
+            <div class="profile-body">
+              <div>
+                <h3 class="profile-name">Helsa</h3>
+                <p class="profile-role">Head Tailor (Menswear)</p>
+                <p class="profile-bio">Master cutter trained on Savile Row and Parisian aristocratic salons. Henri is an absolute perfectionist in hand-canvassed tuxedos and barathea wools.</p>
+              </div>
+              <div class="profile-footer">
+                <div class="profile-footer-row">
+                  <span class="label">Specialty</span>
+                  <span>Floating Horsehair Canvas</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 4: Camille (Tall) -->
+          <div class="profile-card profile-card--tall">
+            <div class="profile-media">
+              <img alt="Sari, Client Experience Manager"
+                   src="/imges/foto sari.jpeg" />
+              <span class="profile-tag">Client Experience</span>
+            </div>
+            <div class="profile-body">
+              <div>
+                <h3 class="profile-name">Sari</h3>
+                <p class="profile-role">Client Experience Manager</p>
+                <p class="profile-bio">Dedicated salon concierge ensuring every private fitting session and couple consultation feels sacred, serene, and profoundly personalized.</p>
+              </div>
+              <div class="profile-footer">
+                <div class="profile-footer-row">
+                  <span class="label">Salon Ritual</span>
+                  <span>Vintage Cru Champagne &amp; Jasmine Tisane</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile 5: Sophie (Tall) -->
+          <div class="profile-card profile-card--tall">
+            <div class="profile-media">
+              <img alt="Indira, Operations &amp; Marketing Manager"
+                   src="/imges/foto indira.jpeg" />
+              <span class="profile-tag">Global Operations</span>
+            </div>
+            <div class="profile-body">
+              <div>
+                <h3 class="profile-name">Indira</h3>
+                <p class="profile-role">Operations &amp; Marketing</p>
+                <p class="profile-bio">Overseeing atelier logistics, international trunk deliveries to destination weddings across Lake Como and Provence, and global digital presence.</p>
+              </div>
+              <div class="profile-footer">
+                <div class="profile-footer-row">
+                  <span class="label">Global Focus</span>
+                  <span>Insured White-Glove Trunks</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- INFO RIBBON ---------- -->
+      <section class="info-ribbon">
+        <div class="info-ribbon-grid">
+          <div class="info-item">
+            <span class="material-symbols-outlined info-icon">location_on</span>
+            <div>
+              <span class="info-label">The Address</span>
+              <p class="info-value">18 Rue du Faubourg Saint-Honoré, 75008 Paris</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="material-symbols-outlined info-icon">schedule</span>
+            <div>
+              <span class="info-label">Salon Hours</span>
+              <p class="info-value">Tuesday to Saturday: 10:00 — 19:00</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <span class="material-symbols-outlined info-icon">verified_user</span>
+            <div>
+              <span class="info-label">Confidentiality</span>
+              <p class="info-value">Discreet private salons for high-profile patrons</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- CLOSING CTA ---------- -->
+      <section class="cta-section">
+        <div class="cta-inner">
+          <span class="cta-eyebrow">Begin Your Chapter</span>
+          <h2 class="cta-title">Experience Our Paris Salon in Faubourg Saint-Honoré</h2>
+          <p class="cta-desc">Whether you envision an ethereal bias-cut column of French silk or an impeccably canvassed morning coat, we invite you to an unhurried, private fitting session with Madame de Lunel and our core team.</p>
+          <div class="cta-actions">
+            <a class="btn btn--primary" data-path="book-an-appointment" href="#">Book Atelier Consultation</a>
+            <a class="btn btn--outline" data-path="contact-and-appointment" href="contact.html">Inquire via Concierge</a>
+          </div>
+          <div class="cta-meta">
+            <span>Complimentary Initial Dialogue</span>
+            <span class="cta-meta-dot"></span>
+            <span>Virtual Fittings for Overseas Couples</span>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-row">
+            <img alt="Lunair Atelier Logo"
+                 src="https://lh3.googleusercontent.com/aida/ALJJyrBITFURlPIqtC_SgsFTtdDCk5y5gxR5q6C8rBlNUEVeB5dvrodWLPYG5x-qph4yQRxiM8f83Q_Wax0hekJeUtmMPJQnqVkDMOvAS1qMxwdGDbdGCRVsDwn6nX2TcfcCpa6dk564JLIGGFHgvZrHTLVm2TmhPWMqobUew8uvAWv6dhOxSZpjjGq_faBLdWM_01yl0V_Kg2DEw4dnYjCdOB1eOlb6YbVlhdwYu4qGer4" />
+            <span class="footer-brand-name">Lunair Atelier</span>
+          </div>
+          <p class="footer-brand-desc">Where Every Vow Deserves a Perfect Silhouette · 18 Rue du Faubourg Saint-Honoré, Paris</p>
+          <div class="footer-hours">
+            <span class="eyebrow">Salon Hours</span>
+            <p>Tuesday to Saturday: 10:00 — 19:00 (By Appointment Only)</p>
+            <a href="#" class="footer-link" style="display: inline-flex; align-items: center; gap: 0.375rem; color: var(--color-secondary); font-size: 11px; letter-spacing: 0.15em; font-weight: 600; text-transform: uppercase; padding-top: 0.5rem;">
+              <span class="material-symbols-outlined" style="font-size: 16px;">chat_bubble</span> WhatsApp Concierge
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <span class="eyebrow">Collections</span>
+          <a class="footer-link" data-path="the-bridal-collection" href="women.html">The Bridal Collection</a>
+          <a class="footer-link" data-path="the-groom-collection" href="men.html">The Groom Collection</a>
+          <a class="footer-link" data-path="bespoke-and-alterations" href="#">Bespoke &amp; Alterations</a>
+        </div>
+
+        <div class="footer-col">
+          <span class="eyebrow">The Atelier</span>
+          <a class="footer-link" data-path="about" href="about.html">Our Story</a>
+          <a class="footer-link" data-path="private-consultation" href="#">Private Consultation</a>
+          <a class="footer-link" data-path="press-and-editorial" href="#">Press &amp; Editorial</a>
+        </div>
+
+        <div class="footer-newsletter">
+          <span class="eyebrow">Salon Previews</span>
+          <p class="footer-brand-desc" style="font-size: 13px; line-height: 20px;">Receive Private Salon Previews and invitations to bespoke couture fittings.</p>
+          <form class="newsletter-form">
+            <div class="newsletter-input-wrap">
+              <input type="email" placeholder="Your email address" />
+              <button type="submit">Join</button>
+            </div>
+            <span class="newsletter-disclaimer">Respecting strict Parisian privacy standards.</span>
+          </form>
+          <div class="social-links">
+            <a aria-label="Instagram" href="#"><span class="material-symbols-outlined">photo_camera</span></a>
+            <a aria-label="Pinterest" href="#"><span class="material-symbols-outlined">push_pin</span></a>
+            <a aria-label="Vogue Showcase" href="#"><span class="material-symbols-outlined">auto_stories</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 Lunair Atelier Paris. All rights reserved. GDPR compliant.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Legal Notices</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

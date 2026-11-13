@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="shell-type" content="web_standard" />
+  <title>The Groom Collection — Lunair Atelier Paris</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" alt="Lunair Atelier Logo"
+               src="https://lh3.googleusercontent.com/aida/ALJJyrBITFURlPIqtC_SgsFTtdDCk5y5gxR5q6C8rBlNUEVeB5dvrodWLPYG5x-qph4yQRxiM8f83Q_Wax0hekJeUtmMPJQnqVkDMOvAS1qMxwdGDbdGCRVsDwn6nX2TcfcCpa6dk564JLIGGFHgvZrHTLVm2TmhPWMqobUew8uvAWv6dhOxSZpjjGq_faBLdWM_01yl0V_Kg2DEw4dnYjCdOB1eOlb6YbVlhdwYu4qGer4" />
+          <span class="brand-name">Lunair Atelier</span>
+        </a>
+        <span class="brand-location">Paris</span>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link active" href="men.html">Men</a>
+        <a class="nav-link" href="women.html">Women</a>
+        <a class="nav-link" href="contact.html">Contact &amp; Appointment</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch">
+          <button type="button" class="active">EN</button>
+          <span class="lang-sep">|</span>
+          <button type="button">FR</button>
+        </div>
+        <a class="btn-appointment" href="contact.html">Book an Appointment</a>
+        <div class="user-avatar" aria-hidden="true">
+          <span class="material-symbols-outlined" style="font-size: 18px;">person</span>
+        </div>
+        <button class="menu-btn" type="button" aria-label="Open Menu">
+          <span class="material-symbols-outlined" style="font-size: 24px;">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MAIN ============ -->
+  <main style="width: 100%; padding-top: 5rem; background-color: var(--color-surface);">
+    <div style="display: flex; flex-direction: column; width: 100%;">
+
+      <!-- ---------- EDITORIAL HEADER ---------- -->
+      <section class="men-header">
+        <div class="men-breadcrumb-row">
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span class="sep">/</span>
+            <a href="#">Collections</a>
+            <span class="sep">/</span>
+            <span class="current">The Groom Collection</span>
+          </nav>
+          <div class="men-archive-badge">
+            <span class="registry-dot"></span>
+            Autumn / Winter &amp; Spring 2026 Nuptial Archives
+          </div>
+        </div>
+
+        <div class="men-title-grid">
+          <div class="men-title-main">
+            <span class="eyebrow text-secondary" style="letter-spacing: 0.25em;">La Haute Mesure Masculine</span>
+            <h1>The Groom Collection</h1>
+            <p class="men-title-sub">Sartorial Architecture for the Sacred Vow</p>
+          </div>
+          <div class="men-title-aside">
+            <p>Handcrafted in our Paris salon on Rue du Faubourg Saint-Honoré, Lunair menswear marries Savile Row architectural precision with the effortless grace of French romanticism. Cut from rare Biella wools, gossamer Lyon silk faille, and hand-canvassed horsehair foundations.</p>
+            <div class="men-title-aside-meta">
+              <span>Salon Faubourg N°18</span>
+              <span></span>
+              <span>By Appointment Only</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="men-stats-ribbon">
+          <div class="men-stat">
+            <span class="men-stat-eyebrow">Foundation</span>
+            <span class="men-stat-value">100% Floating</span>
+            <span class="men-stat-desc">Full natural horsehair chest piece</span>
+          </div>
+          <div class="men-stat">
+            <span class="men-stat-eyebrow">Mills &amp; Weaves</span>
+            <span class="men-stat-value">Dormeuil &amp; H&amp;S</span>
+            <span class="men-stat-desc">Exclusive Biella &amp; Yorkshire weaves</span>
+          </div>
+          <div class="men-stat">
+            <span class="men-stat-eyebrow">Craft Hours</span>
+            <span class="men-stat-value">70+ Hours</span>
+            <span class="men-stat-desc">Hand-needlework per silhouette</span>
+          </div>
+          <div class="men-stat">
+            <span class="men-stat-eyebrow">Precision</span>
+            <span class="men-stat-value">4 Dedicated Fittings</span>
+            <span class="men-stat-desc">From calico toile to wedding day drape</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- FILTER BAR ---------- -->
+      <section class="filter-bar">
+        <div class="filter-bar-row">
+          <div class="filter-tabs" id="silhouette-filters">
+            <button class="filter-tab-btn is-active" type="button">All Silhouettes <span class="count">(18)</span></button>
+            <button class="filter-tab-btn" type="button">Black Tie &amp; Tuxedos <span class="count">(6)</span></button>
+            <button class="filter-tab-btn" type="button">Three-Piece &amp; Morning Coats <span class="count">(4)</span></button>
+            <button class="filter-tab-btn" type="button">Parisian Velvet &amp; Silk <span class="count">(5)</span></button>
+            <button class="filter-tab-btn" type="button">Destination Nuptials <span class="count">(3)</span></button>
+          </div>
+
+          <div class="filter-sort">
+            <div class="filter-sort-wrap">
+              <span>Order:</span>
+              <select aria-label="Order by">
+                <option>Curated Atelier Sequence</option>
+                <option>Formal Nocturne to Daylight</option>
+                <option>Rare Silk &amp; Cashmere First</option>
+                <option>Heritage Black Tie</option>
+              </select>
+            </div>
+
+            <div class="view-controls">
+              <button class="view-btn is-active" aria-label="3-Column Grid View" title="Editorial 3-Column">
+                <span class="material-symbols-outlined">view_column</span>
+              </button>
+              <button class="view-btn" aria-label="Large Showcase View" title="Showcase 2-Column">
+                <span class="material-symbols-outlined">view_agenda</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-attributes">
+          <div class="filter-attributes-group">
+            <span class="filter-attributes-label">Attributes:</span>
+            <div class="filter-attr-chip">
+              <span class="dot"></span>
+              <span>Hue: All Nocturnes &amp; Lights</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </div>
+            <div class="filter-attr-chip">
+              <span>Mill: Biella Super 160s / Dormeuil</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </div>
+            <div class="filter-attr-chip">
+              <span>Shoulder: Parisian British Drop</span>
+              <span class="material-symbols-outlined">expand_more</span>
+            </div>
+          </div>
+          <div class="filter-count">Displaying 6 of 18 Master Silhouettes</div>
+        </div>
+      </section>
+
+      <!-- ---------- PRODUCT GRID ---------- -->
+      <section class="men-products">
+        <div class="men-products-grid">
+
+          <!-- Card 01 -->
+          <article class="men-card">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcuMuc5rkjKhfAvOA3AMNuck3Quga40EV4jPQEEjoyGjqthd0pIDGgQtVNxWP2oqeed2X9UFL2jb9f_6n0FcMKMQ9qkoPY5jQKxHimNp_KieDB68d2lfEsWHN7VLdNKK7f01LZMEpSdgZC_ufonpNO7Is1iwpEiRe07q0DulLS4_3foltVrzaBIbb5Bm1jajdRtcTWXukMpcI9X2BJadctcKlpUazv8HLRCmDuLmc" alt="Le Grand Tuxedo Vendôme" />
+              <span class="men-card-category">Heritage Black Tie</span>
+              <span class="men-card-archive men-card-archive--primary">Archival No. 01</span>
+              <div class="men-card-hover">
+                <button class="men-card-hover-btn" onclick="document.getElementById('spotlight-section').scrollIntoView({behavior:'smooth'})">
+                  Explore Architectural Anatomy
+                </button>
+              </div>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <h2 class="men-card-title">Le Grand Tuxedo Vendôme</h2>
+                <span class="men-card-tag">Paris Cut</span>
+              </div>
+              <p class="men-card-desc">Dormeuil Tonik Mohair &amp; Silk Barathea Shawl Lapel. Crafted with architectural roped shoulders and grosgrain piping along pocket jets.</p>
+              <div class="men-card-features">
+                <span>Horsehair Canvas</span>
+                <span>Milanese Buttonhole</span>
+                <span>Silk Barathea</span>
+              </div>
+              <div class="men-card-footer">
+                <span class="men-card-price">From €5,200 <small>· Bespoke MTM</small></span>
+                <a href="contact.html" class="men-card-link">
+                  Request Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 02 -->
+          <article class="men-card">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuATGPfgcJZMjK9V-J1J9O_vKucGWIRgTPjL56_slw6qkkUzk9cgPnl77-Gm0o9iWE3EntpV4DJ-AAc5Ywqbd_SkFizGfstikK6eHo6knjgK6wyN8g2hLPVm5rfIcJvNZ6s1xHqiM3r5M6nOPB0WLmyyWrbEsmtOD45I_ACrBUrghMN6mW7ztmsToRfhSTCpilVdX6NOh8_vdWmQwf40X8VAgScNi_72buyw3YP8uUw" alt="The Faubourg Midnight Three-Piece" />
+              <span class="men-card-category">Parisian Salon</span>
+              <span class="men-card-archive men-card-archive--neutral">Archival No. 04</span>
+              <div class="men-card-hover">
+                <a href="contact.html" class="men-card-hover-btn">Schedule Salon Preview</a>
+              </div>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <h2 class="men-card-title">The Faubourg Midnight Three-Piece</h2>
+                <span class="men-card-tag">Horseshoe Vest</span>
+              </div>
+              <p class="men-card-desc">Holland &amp; Sherry 340g Double-Twisted Super 160s Wool in Midnight Profond. Features a scooped 6-button nuptial waistcoat.</p>
+              <div class="men-card-features">
+                <span>Natural Cambered Chest</span>
+                <span>Horn Buttons</span>
+                <span>Side Adjusters</span>
+              </div>
+              <div class="men-card-footer">
+                <span class="men-card-price">From €5,800 <small>· Bespoke MTM</small></span>
+                <a href="contact.html" class="men-card-link">
+                  Request Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 03 -->
+          <article class="men-card">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2_G6pDFQtl8lEuplL-IgayThC0DSaRosgK70GikNTKwTtS9RJy8lSuPIvwpJlkn1_g2chOJCT_84DdfLqA4Mu7_NG3OykyiggIYp1xv0UBUfWHZHSpr_lDvPO4dJNKF3rfcbY92HUFQlnAIXCqfIkgYBZGwbvcuZuV_fxrFn_V8zGFkvKbox0xVyFUoJnTAU1I_4M56MzeYlLSlZqM-jPKZim-xhE35W_qHoPsqs" alt="L’Aristo Ivory Silk Shawl" />
+              <span class="men-card-category">Destination Nuptials</span>
+              <span class="men-card-archive men-card-archive--neutral">Archival No. 07</span>
+              <div class="men-card-hover">
+                <a href="contact.html" class="men-card-hover-btn">Schedule Salon Preview</a>
+              </div>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <h2 class="men-card-title">L’Aristo Ivory Silk Shawl</h2>
+                <span class="men-card-tag">Riviera Evening</span>
+              </div>
+              <p class="men-card-desc">Pure Lyon Raw Silk Faille with hand-fastened Australian Mother-of-Pearl single button closure and paired black Barathea trousers.</p>
+              <div class="men-card-features">
+                <span>Lyon Silk Faille</span>
+                <span>Mother-of-Pearl</span>
+                <span>Silk Cupro Lining</span>
+              </div>
+              <div class="men-card-footer">
+                <span class="men-card-price">From €6,100 <small>· Bespoke MTM</small></span>
+                <a href="contact.html" class="men-card-link">
+                  Request Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 04 -->
+          <article class="men-card">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCu6uKXo5lMlIKLFNznqoa3jMEBVNeklzRNc5kS-fBWl8mfqVcPC9BPgeWmqyfXkCelPzne3ZitM5P49elUtWzylW4Dn3bpcZCM24H6smY0mJojZI7V4aMHu4vPbpEHZ6YOlw66908Bx-2TNDprvB68w7vGyVsLowFA_ZpIIv7O7kxdwX5h5TFkDzRGVi-wbwdhHwh9XHjjQZWG5BWAWxtLkSOut_nvloPeWOWuXJw" alt="Le Duc Charcoal Morning Coat" />
+              <span class="men-card-category">Bespoke Morning Suit</span>
+              <span class="men-card-archive men-card-archive--neutral">Archival No. 11</span>
+              <div class="men-card-hover">
+                <a href="contact.html" class="men-card-hover-btn">Schedule Salon Preview</a>
+              </div>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <h2 class="men-card-title">Le Duc Charcoal Morning Coat</h2>
+                <span class="men-card-tag">Royal Nuptial</span>
+              </div>
+              <p class="men-card-desc">Hand-canvassed Savile-inspired cut with peaked silk lapels, sculpted sweeping tails, and paired dove-grey pearl flannel waistcoat.</p>
+              <div class="men-card-features">
+                <span>Fine Herringbone</span>
+                <span>Silk-Faced Peak</span>
+                <span>Scalloped Tail Hem</span>
+              </div>
+              <div class="men-card-footer">
+                <span class="men-card-price">From €6,450 <small>· Full Bespoke</small></span>
+                <a href="contact.html" class="men-card-link">
+                  Request Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 05 -->
+          <article class="men-card">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSdJPOKccwDoHVJJPoLAWaR-HYfNeujGtfI8S54tcPdGmPWHp6xuiayucaU0VMaSkcjYLw31ZIZt2ssIRD20L5lkknxUuuMcmbUnwEZ7sSXjkFCPO1bjcdjVg9wnopu_nXM4v4CXQzeJRx58G0xChWL0NyNymCqxwRavEhNYqBXmWFqeVHAIMBf_lHHjvFDAf9qhCiIRB8PKlEf1s-c5XLmctUYxEB3-BXlwQXjJ8" alt="Le Marais Velvet Smoking" />
+              <span class="men-card-category">Parisian Velvet &amp; Silk</span>
+              <span class="men-card-archive men-card-archive--neutral">Archival No. 14</span>
+              <div class="men-card-hover">
+                <a href="contact.html" class="men-card-hover-btn">Schedule Salon Preview</a>
+              </div>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <h2 class="men-card-title">Le Marais Velvet Smoking</h2>
+                <span class="men-card-tag">Nocturne Repose</span>
+              </div>
+              <p class="men-card-desc">Venetian Cotton-Silk Velvet in Bordeaux Profond, finished with hand-quilted silk faille shawl collar and braided frog toggle.</p>
+              <div class="men-card-features">
+                <span>Venetian Velvet</span>
+                <span>Quilted Silk Shawl</span>
+                <span>Bespoke Monogram</span>
+              </div>
+              <div class="men-card-footer">
+                <span class="men-card-price">From €4,850 <small>· Bespoke MTM</small></span>
+                <a href="contact.html" class="men-card-link">
+                  Request Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 06 -->
+          <article class="men-card">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuB18yws1XjrlinaW6qYbUg2mUleGmVDtSG2Fx2JrQfmtoZ4et6pvIX1EWNG9Qt0SLuvfpxXYx23PYznR8QMwqDjaGMciayIajKdHTgGtp7sFYQR1Lu--fpT_iJg2zPPH8r3toFkwILGzi7XZYDJWAgdKlcW2OOMmBSlz-wNwfchAhyW-HW59hD0uDsI-yyvy9Tx3Q3I96XBzEWabGUQECWAZegSRR-2i-p2fk1BBmE" alt="The Bellagio Cashmere-Silk" />
+              <span class="men-card-category">Summer Riviera</span>
+              <span class="men-card-archive men-card-archive--neutral">Archival No. 16</span>
+              <div class="men-card-hover">
+                <a href="contact.html" class="men-card-hover-btn">Schedule Salon Preview</a>
+              </div>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <h2 class="men-card-title">The Bellagio Cashmere-Silk</h2>
+                <span class="men-card-tag">Soft Shoulder</span>
+              </div>
+              <p class="men-card-desc">Loro Piana 210g Cashmere and Raw Mulberry Silk blend in Pearl Sand. Features a unlined spalla camicia Neapolitan drape for warm nuptials.</p>
+              <div class="men-card-features">
+                <span>Spalla Camicia</span>
+                <span>210g Featherweight</span>
+                <span>Loro Piana Mill</span>
+              </div>
+              <div class="men-card-footer">
+                <span class="men-card-price">From €5,600 <small>· Bespoke MTM</small></span>
+                <a href="contact.html" class="men-card-link">
+                  Request Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ---------- SPOTLIGHT ANATOMY ---------- -->
+      <section class="spotlight-section" id="spotlight-section">
+        <div class="spotlight-inner">
+          <div class="spotlight-header">
+            <div class="spotlight-header-main">
+              <span class="eyebrow text-secondary" style="letter-spacing: 0.25em;">Atelier Anatomy Spotlight</span>
+              <h2>The Vendôme Grosgrain Tuxedo</h2>
+              <p>Deconstructing 72 hours of Parisian hand-tailoring on single garment foundations.</p>
+            </div>
+            <div class="spotlight-header-meta">Archival Spec: 01-VDM-26</div>
+          </div>
+
+          <div class="spotlight-grid">
+            <!-- Gallery -->
+            <div class="spotlight-gallery">
+              <div class="spotlight-main">
+                <img id="spotlight-main-img"
+                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRQL1oyhYv_P2aDhuIfbsVJrqAWuc5Jne2WeJ1P0pOCqapHwysMpoSYjE4sPrfVgUwl_hOHlLmy6r_wOClnAeTYiIKam6xb7UhMTx4qKBimgmDomgwEDC98pqWjHTCHnv8PkSCswUrBKqIjDETARAbfCjpgbS3yq3tNAUPe5Mq-laLINPcVmtc1eK_EsstMS9It4J9zVwbvukXqQ3MuxXcP1iKH6z-LYNI83iB-Lg"
+                     alt="Vendôme Tuxedo detail" />
+                <span class="spotlight-main-caption" id="spotlight-caption">Detail 01 · Milanese Hand-Piped Buttonhole</span>
+              </div>
+              <div class="spotlight-thumbs">
+                <button class="spotlight-thumb is-active" type="button" onclick="changeSpotlight(0)">
+                  <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWHNNhXn4vaqw0LP-dllMcOqL2SxshVK0pd-br7hR0gCioNCPG86PlmtOJ0_D3b5zzfuclfYWIEGlnGItJL-0Ebjx9wqpElo0v4I0p7UInuJIX4Q1ilDB4v5xuh2ueVcVQHvcQSfNVx7Pe8bZvgKh65Uvl-zfLiNKFxCM7QMVzBBHQdd3NwDb6Xi-cUXEXVmiaaryvu1eXnHF376E70F-03VwTUlDqXCiwhe1zerw" alt="01 Buttonhole" />
+                  <span class="spotlight-thumb-label">01 Buttonhole</span>
+                </button>
+                <button class="spotlight-thumb" type="button" onclick="changeSpotlight(1)">
+                  <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiWGV8OPcaQItZMggHB7TX4D5TK7VYh4Jmtee7ztNQlyqS0TwGQ0ihR1p4YCNmgLSUX_44kcBcK4Y7GuE9oG8NwN8EMIGjqkQljlnjgTD1LHjuVKj7sYcMzbf3Ibl4DlSL54umdSxrigWtozmYE6qQ2fsYeqFVOw3r82hFZSq2zbR57gSXoJioeeVV7WkVN8ityX_tY7hjZsMhqJddae2rauQIxGIqGXSOKfpY444" alt="02 Canvas Core" />
+                  <span class="spotlight-thumb-label">02 Canvas Core</span>
+                </button>
+                <button class="spotlight-thumb" type="button" onclick="changeSpotlight(2)">
+                  <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWH4nprQzx1q-cHzaYMngHooA2HE52U8EybiO1FkM8q7txiiG6toOSyvG6r05H68_QaVd67OJi10wDMdpBe60SA8JL4pkdzgpE5IlsZpHPEmPtGtpmcS6OV0QK7I3X2o-mTqns0di-mLlO3TKjk33q_rUxeKX0akL2aEx52aaO3TJ1TkjN7gczxK__YY2Hu51N382ngHQ9LVb_Zef11PpQJ3I83QUG1lYRtj7WjEI" alt="03 Monogram" />
+                  <span class="spotlight-thumb-label">03 Monogram</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Details -->
+            <div class="spotlight-details">
+              <div class="spotlight-details-top">
+                <span>Fabric Provenance</span>
+                <span>Dormeuil Tonik · 295g</span>
+              </div>
+
+              <div class="spotlight-specs">
+                <div class="spotlight-spec">
+                  <span class="material-symbols-outlined">verified</span>
+                  <div class="spotlight-spec-body">
+                    <h3 class="spotlight-spec-title">Floating Full Canvas Anatomy</h3>
+                    <p class="spotlight-spec-desc">Never fused with synthetic glue. Uses 4-ply Mongolian horsehair and Irish linen that molds organically to your posture through body warmth.</p>
+                  </div>
+                </div>
+                <div class="spotlight-spec">
+                  <span class="material-symbols-outlined">palette</span>
+                  <div class="spotlight-spec-body">
+                    <h3 class="spotlight-spec-title">Lyon Grosgrain Silk Facing</h3>
+                    <p class="spotlight-spec-desc">Woven on heritage wooden shuttle looms in Lyon. Offers matte, light-absorbing elegance superior to standard shiny synthetic satins.</p>
+                  </div>
+                </div>
+                <div class="spotlight-spec">
+                  <span class="material-symbols-outlined">brush</span>
+                  <div class="spotlight-spec-body">
+                    <h3 class="spotlight-spec-title">Milanese Asola Fatta a Mano</h3>
+                    <p class="spotlight-spec-desc">A 45-minute hand-embroidery process per buttonhole using silk gimp, providing the distinct raised bead coveted by true connoisseurs.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="spotlight-inclusions">
+                <span class="spotlight-inclusions-label">Included Bespoke Inclusions:</span>
+                <ul class="spotlight-inclusions-list">
+                  <li>3 Private Toile Basted Fittings in Paris or Suite</li>
+                  <li>Custom Gold-Thread Inscription of Wedding Date &amp; Vow</li>
+                  <li>Handcrafted Aromatic Cedarwood Bridal Travel Trunk</li>
+                </ul>
+              </div>
+
+              <a href="contact.html" class="spotlight-cta">Commission This Silhouette</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- TAILORING JOURNEY ---------- -->
+      <section class="journey-section">
+        <div class="journey-inner">
+          <div class="journey-header">
+            <span class="eyebrow text-secondary" style="letter-spacing: 0.25em;">The Lunair Protocol</span>
+            <h2>The Four Sacred Fittings</h2>
+            <p>From initial fabric dégustation to the final pressing, each commission is an intimate dialogue between your personal aesthetic and the master cutter’s eye.</p>
+          </div>
+
+          <div class="journey-grid">
+            <div class="journey-step">
+              <div class="journey-step-body">
+                <div class="journey-step-top">
+                  <span class="journey-step-num">01</span>
+                  <span class="journey-step-stage">Stage I</span>
+                </div>
+                <h3 class="journey-step-title">The Silhouette &amp; Cloth Dégustation</h3>
+                <p class="journey-step-desc">A private salon session over vintage Champagne. Explore 400+ archive swatches from Dormeuil, Scabal, and rare Biella wool merchants.</p>
+              </div>
+              <div class="journey-step-footer">90 Minutes · Salon N°18</div>
+            </div>
+
+            <div class="journey-step">
+              <div class="journey-step-body">
+                <div class="journey-step-top">
+                  <span class="journey-step-num">02</span>
+                  <span class="journey-step-stage">Stage II</span>
+                </div>
+                <h3 class="journey-step-title">38 Anatomical Measurements</h3>
+                <p class="journey-step-desc">Recording spine slope, collar drop, pitch of arms, and walking gait. A unique paper master pattern is drafted solely for your physique.</p>
+              </div>
+              <div class="journey-step-footer">Individual Pattern Cut</div>
+            </div>
+
+            <div class="journey-step">
+              <div class="journey-step-body">
+                <div class="journey-step-top">
+                  <span class="journey-step-num">03</span>
+                  <span class="journey-step-stage">Stage III</span>
+                </div>
+                <h3 class="journey-step-title">The Raw Basted Toile Fitting</h3>
+                <p class="journey-step-desc">The suit arrives in raw calico and white basting thread without lapels or lining. Henri Vaneau sculpts shoulder balance directly on your frame.</p>
+              </div>
+              <div class="journey-step-footer">Pure Architectural Sculpture</div>
+            </div>
+
+            <div class="journey-step">
+              <div class="journey-step-body">
+                <div class="journey-step-top">
+                  <span class="journey-step-num">04</span>
+                  <span class="journey-step-stage">Stage IV</span>
+                </div>
+                <h3 class="journey-step-title">The Handcraft &amp; Final Pressing</h3>
+                <p class="journey-step-desc">Hand-sewn Milanese buttonholes, silk lining insertion, and artisanal steam shaping. Sealed in cedarwood nuptial travel casing.</p>
+              </div>
+              <div class="journey-step-footer">Delivery &amp; Wedding Ready</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- DESTINATION CALLOUT ---------- -->
+      <section class="destination-callout-section">
+        <div class="destination-callout">
+          <div class="destination-callout-inner">
+            <div class="destination-callout-body">
+              <span class="eyebrow text-secondary" style="letter-spacing: 0.25em;">Global White-Glove Valet</span>
+              <h2>Destination Nuptials: Lake Como, Cap d'Antibes &amp; St. Moritz</h2>
+              <p>For weddings abroad, Lunair provides dedicated climate-sealed garment trunks with custom-contoured cedar hangers, travel valet pressing kits, and coordinated international delivery directly to your bridal suite with master pressing upon arrival.</p>
+            </div>
+            <div class="destination-callout-actions">
+              <a href="#">Inquire Valet Trunks</a>
+              <a href="#">View Destination Guide</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- CLOSING CTA ---------- -->
+      <section class="closing-cta" id="appointment">
+        <div class="closing-cta-inner">
+          <span class="eyebrow text-secondary" style="letter-spacing: 0.3em;">Private Fitting Commission</span>
+          <h2>Commission Your Wedding Attire with Master Tailor Henri Vaneau</h2>
+          <p>Due to our strict bespoke standards and 70+ hours of hand-canvassing per garment, our atelier accepts a limited number of nuptial commissions per wedding season. We recommend reserving 12 to 16 weeks in advance of your vow exchange.</p>
+          <div class="closing-cta-actions">
+            <a href="contact.html" class="btn btn--primary">Book Atelier Fitting in Paris</a>
+            <a href="contact.html" class="btn" style="background-color: var(--color-surface-container); color: var(--color-on-surface);">Schedule Virtual Consultation</a>
+          </div>
+          <div class="closing-cta-meta">
+            <div class="closing-cta-meta-item">
+              <span class="material-symbols-outlined">call</span>
+              <span>Salon Direct: +33 1 42 68 55 00</span>
+            </div>
+            <span class="closing-cta-meta-sep">|</span>
+            <div class="closing-cta-meta-item">
+              <span class="material-symbols-outlined">schedule</span>
+              <span>Lead Time: 8–12 Weeks for Bespoke</span>
+            </div>
+            <span class="closing-cta-meta-sep">|</span>
+            <a class="closing-cta-meta-link" href="#">
+              <span class="material-symbols-outlined">chat</span>
+              WhatsApp Groom Concierge
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-row">
+            <img alt="Lunair Atelier Logo"
+                 src="https://lh3.googleusercontent.com/aida/ALJJyrBITFURlPIqtC_SgsFTtdDCk5y5gxR5q6C8rBlNUEVeB5dvrodWLPYG5x-qph4yQRxiM8f83Q_Wax0hekJeUtmMPJQnqVkDMOvAS1qMxwdGDbdGCRVsDwn6nX2TcfcCpa6dk564JLIGGFHgvZrHTLVm2TmhPWMqobUew8uvAWv6dhOxSZpjjGq_faBLdWM_01yl0V_Kg2DEw4dnYjCdOB1eOlb6YbVlhdwYu4qGer4" />
+            <span class="footer-brand-name">Lunair Atelier</span>
+          </div>
+          <p class="footer-brand-desc">Where Every Vow Deserves a Perfect Silhouette · 18 Rue du Faubourg Saint-Honoré, Paris</p>
+          <div class="footer-hours">
+            <span class="eyebrow">Salon Hours</span>
+            <p>Tuesday to Saturday: 10:00 — 19:00 (By Appointment Only)</p>
+            <a href="#" class="footer-link" style="display: inline-flex; align-items: center; gap: 0.375rem; color: var(--color-secondary); font-size: 11px; letter-spacing: 0.15em; font-weight: 600; text-transform: uppercase; padding-top: 0.5rem;">
+              <span class="material-symbols-outlined" style="font-size: 16px;">chat_bubble</span> WhatsApp Concierge
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <span class="eyebrow">Collections</span>
+          <a class="footer-link" href="women.html">The Bridal Collection</a>
+          <a class="footer-link" href="men.html">The Groom Collection</a>
+          <a class="footer-link" href="#">Bespoke &amp; Alterations</a>
+        </div>
+
+        <div class="footer-col">
+          <span class="eyebrow">The Atelier</span>
+          <a class="footer-link" href="about.html">Our Story</a>
+          <a class="footer-link" href="#">Private Consultation</a>
+          <a class="footer-link" href="#">Press &amp; Editorial</a>
+        </div>
+
+        <div class="footer-newsletter">
+          <span class="eyebrow">Salon Previews</span>
+          <p class="footer-brand-desc" style="font-size: 13px; line-height: 20px;">Receive Private Salon Previews and invitations to bespoke couture fittings.</p>
+          <form class="newsletter-form">
+            <div class="newsletter-input-wrap">
+              <input type="email" placeholder="Your email address" />
+              <button type="submit">Join</button>
+            </div>
+            <span class="newsletter-disclaimer">Respecting strict Parisian privacy standards.</span>
+          </form>
+          <div class="social-links">
+            <a aria-label="Instagram" href="#"><span class="material-symbols-outlined">photo_camera</span></a>
+            <a aria-label="Pinterest" href="#"><span class="material-symbols-outlined">push_pin</span></a>
+            <a aria-label="Vogue Showcase" href="#"><span class="material-symbols-outlined">auto_stories</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 Lunair Atelier Paris. All rights reserved. GDPR compliant.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Legal Notices</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ SCRIPT ============ -->
+  <script>
+    // Spotlight gallery switcher
+    const spotlightData = [
+      {
+        src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAWHNNhXn4vaqw0LP-dllMcOqL2SxshVK0pd-br7hR0gCioNCPG86PlmtOJ0_D3b5zzfuclfYWIEGlnGItJL-0Ebjx9wqpElo0v4I0p7UInuJIX4Q1ilDB4v5xuh2ueVcVQHvcQSfNVx7Pe8bZvgKh65Uvl-zfLiNKFxCM7QMVzBBHQdd3NwDb6Xi-cUXEXVmiaaryvu1eXnHF376E70F-03VwTUlDqXCiwhe1zerw',
+        caption: 'Detail 01 · Milanese Hand-Piped Buttonhole'
+      },
+      {
+        src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDiWGV8OPcaQItZMggHB7TX4D5TK7VYh4Jmtee7ztNQlyqS0TwGQ0ihR1p4YCNmgLSUX_44kcBcK4Y7GuE9oG8NwN8EMIGjqkQljlnjgTD1LHjuVKj7sYcMzbf3Ibl4DlSL54umdSxrigWtozmYE6qQ2fsYeqFVOw3r82hFZSq2zbR57gSXoJioeeVV7WkVN8ityX_tY7hjZsMhqJddae2rauQIxGIqGXSOKfpY444',
+        caption: 'Detail 02 · Hand-Basted Horsehair Canvas Core'
+      },
+      {
+        src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDWH4nprQzx1q-cHzaYMngHooA2HE52U8EybiO1FkM8q7txiiG6toOSyvG6r05H68_QaVd67OJi10wDMdpBe60SA8JL4pkdzgpE5IlsZpHPEmPtGtpmcS6OV0QK7I3X2o-mTqns0di-mLlO3TKjk33q_rUxeKX0akL2aEx52aaO3TJ1TkjN7gczxK__YY2Hu51N382ngHQ9LVb_Zef11PpQJ3I83QUG1lYRtj7WjEI',
+        caption: 'Detail 03 · Hand-Embroidered Silk Monogram'
+      }
+    ];
+
+    function changeSpotlight(index) {
+      const mainImg = document.getElementById('spotlight-main-img');
+      const caption = document.getElementById('spotlight-caption');
+      if (mainImg && spotlightData[index]) {
+        mainImg.src = spotlightData[index].src;
+        caption.textContent = spotlightData[index].caption;
+      }
+      document.querySelectorAll('.spotlight-thumb').forEach((btn, i) => {
+        btn.classList.toggle('is-active', i === index);
+      });
+    }
+
+    // Filter tab active state
+    document.querySelectorAll('.filter-tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-tab-btn').forEach(b => b.classList.remove('is-active'));
+        btn.classList.add('is-active');
+      });
+    });
+  </script>
+
+</body>
+</html>

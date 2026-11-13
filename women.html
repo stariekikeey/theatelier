@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="shell-type" content="web_standard" />
+  <title>The Bridal Collection — Lunair Atelier Paris</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-left">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" alt="Lunair Atelier Logo"
+               src="https://lh3.googleusercontent.com/aida/ALJJyrBITFURlPIqtC_SgsFTtdDCk5y5gxR5q6C8rBlNUEVeB5dvrodWLPYG5x-qph4yQRxiM8f83Q_Wax0hekJeUtmMPJQnqVkDMOvAS1qMxwdGDbdGCRVsDwn6nX2TcfcCpa6dk564JLIGGFHgvZrHTLVm2TmhPWMqobUew8uvAWv6dhOxSZpjjGq_faBLdWM_01yl0V_Kg2DEw4dnYjCdOB1eOlb6YbVlhdwYu4qGer4" />
+          <span class="brand-name">Lunair Atelier</span>
+        </a>
+        <span class="brand-location">Paris</span>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="men.html">Men</a>
+        <a class="nav-link active" href="women.html">Women</a>
+        <a class="nav-link" href="contact.html">Contact &amp; Appointment</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch">
+          <button type="button" class="active">EN</button>
+          <span class="lang-sep">|</span>
+          <button type="button">FR</button>
+        </div>
+        <a class="btn-appointment" href="contact.html">Book an Appointment</a>
+        <div class="user-avatar" aria-hidden="true">
+          <span class="material-symbols-outlined" style="font-size: 18px;">person</span>
+        </div>
+        <button class="menu-btn" type="button" aria-label="Open Menu">
+          <span class="material-symbols-outlined" style="font-size: 24px;">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ MAIN ============ -->
+  <main style="width: 100%; padding-top: 5rem; background-color: var(--color-surface);">
+    <div style="display: flex; flex-direction: column; width: 100%;">
+
+      <!-- ---------- WOMEN HEADER ---------- -->
+      <section class="women-ambient">
+        <div class="women-header-inner">
+          <!-- Breadcrumb -->
+          <nav class="women-header-crumbs" aria-label="Breadcrumb">
+            <a href="index.html">Home</a>
+            <span class="sep">/</span>
+            <a href="#">Collections</a>
+            <span class="sep">/</span>
+            <span class="current">The Bridal Collection</span>
+          </nav>
+
+          <!-- Status cartouche -->
+          <div class="women-status-cartouche">
+            <span class="women-status-dot"></span>
+            <span class="women-status-text">
+              Printemps / Été 2026 Bridal Anthology · Salon Faubourg N°18 · By Private Appointment
+            </span>
+          </div>
+
+          <!-- Hero -->
+          <div class="women-hero-grid">
+            <div class="women-hero-main">
+              <span class="eyebrow text-secondary">Haute Couture Mariée</span>
+              <h1>The Bridal Collection</h1>
+              <p class="women-hero-sub">Ethereal Architecture, Featherweight Corsetry, and French Romanticism</p>
+            </div>
+            <div class="women-hero-aside">
+              Every gown is an architectural poem hand-draped in pure Lyon silk crepe, heirloom Calais-Caudry lace, and revolutionary bone-free organza corsetry. Designed to breathe, move, and float weightlessly in harmony with the Parisian bride.
+            </div>
+          </div>
+
+          <!-- Metrics -->
+          <div class="women-metrics">
+            <div class="women-metric">
+              <span class="women-metric-label">Corsetry Innovation</span>
+              <span class="women-metric-value">100% Bone-Free</span>
+              <p class="women-metric-desc">Multi-tier silk organza scaffolding that contours effortlessly without steel rigidity.</p>
+            </div>
+            <div class="women-metric">
+              <span class="women-metric-label">Archival Weaves</span>
+              <span class="women-metric-value">Calais-Caudry</span>
+              <p class="women-metric-desc">Hand-loomed archival dentelle preserved under French UNESCO heritage craftsmanship.</p>
+            </div>
+            <div class="women-metric">
+              <span class="women-metric-label">Artisanal Dedication</span>
+              <span class="women-metric-value">120–220 Hours</span>
+              <p class="women-metric-desc">Single-artisan micro needlepoint, seed pearls, and hand-rolled French picot edges.</p>
+            </div>
+            <div class="women-metric">
+              <span class="women-metric-label">Faubourg Experience</span>
+              <span class="women-metric-value">4 Private Fittings</span>
+              <p class="women-metric-desc">From hand-drafted calico toile prototype to aisle-ready silhouette perfection.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- FILTER BAR ---------- -->
+      <section class="filter-bar">
+        <div class="filter-bar-row">
+          <div class="filter-tabs" id="silhouetteTabs">
+            <button class="filter-tab-btn is-active" type="button" data-filter="all">All Silhouettes <span class="count">(24)</span></button>
+            <button class="filter-tab-btn" type="button" data-filter="aline">Fluid A-Line &amp; Column <span class="count">(8)</span></button>
+            <button class="filter-tab-btn" type="button" data-filter="mermaid">Sculptural Mermaid <span class="count">(6)</span></button>
+            <button class="filter-tab-btn" type="button" data-filter="ballgown">Grand Ball Gowns <span class="count">(5)</span></button>
+            <button class="filter-tab-btn" type="button" data-filter="minimalist">Parisian Minimalist <span class="count">(5)</span></button>
+          </div>
+
+          <div class="filter-sort">
+            <div class="view-controls">
+              <button class="view-btn is-active" id="viewGrid" aria-label="Grid View" title="Editorial 3-Column">
+                <span class="material-symbols-outlined">grid_view</span>
+              </button>
+              <button class="view-btn" id="viewLookbook" aria-label="Lookbook View" title="Lookbook 2-Column">
+                <span class="material-symbols-outlined">view_agenda</span>
+              </button>
+            </div>
+            <button class="filter-toggle-btn" id="filterToggleBtn" type="button">
+              <span class="material-symbols-outlined">tune</span>
+              <span>Filters</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter Drawer -->
+        <div class="filter-drawer" id="filterDrawer">
+          <div class="filter-drawer-group">
+            <label>Neckline Atelier</label>
+            <div class="filter-check-list">
+              <label class="filter-check-label"><input type="checkbox" checked /> All Necklines</label>
+              <label class="filter-check-label"><input type="checkbox" /> Plunging French V</label>
+              <label class="filter-check-label"><input type="checkbox" /> Architectural Bateau</label>
+              <label class="filter-check-label"><input type="checkbox" /> Victorian High Collar</label>
+            </div>
+          </div>
+
+          <div class="filter-drawer-group">
+            <label>Archival Fabrication</label>
+            <div class="filter-check-list">
+              <label class="filter-check-label"><input type="checkbox" checked /> 40-Ply Lyon Silk Crepe</label>
+              <label class="filter-check-label"><input type="checkbox" /> Caudry Chantilly Dentelle</label>
+              <label class="filter-check-label"><input type="checkbox" /> Diaphanous Silk Gazare</label>
+              <label class="filter-check-label"><input type="checkbox" /> Royal Silk Mikado</label>
+            </div>
+          </div>
+
+          <div class="filter-drawer-group">
+            <label>Train &amp; Mantle</label>
+            <div class="filter-check-list">
+              <label class="filter-check-label"><input type="radio" name="train" checked /> All Proportions</label>
+              <label class="filter-check-label"><input type="radio" name="train" /> Cathedral Length (2.4m+)</label>
+              <label class="filter-check-label"><input type="radio" name="train" /> Watteau Court Capelet</label>
+              <label class="filter-check-label"><input type="radio" name="train" /> Floor-Sweeping Pool</label>
+            </div>
+          </div>
+
+          <div class="filter-drawer-group">
+            <label>Sort Sequence</label>
+            <select class="filter-select-field">
+              <option>Curated Atelier Sequence</option>
+              <option>Runway Debut: Spring/Summer 2026</option>
+              <option>Bespoke Craftsmanship (180h+)</option>
+              <option>Heirloom Silks &amp; Hand-Lace</option>
+            </select>
+            <span class="filter-drawer-note">Real-time studio inventory</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- PRODUCT GRID ---------- -->
+      <section class="men-products">
+        <div class="men-products-grid" id="productGallery">
+
+          <!-- Gown 01 -->
+          <article class="men-card" data-category="mermaid">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB9dbs5hUTP2rvVEEjrt6IdcQBDDGMLbeyj37-W5xL0Ne1ZEgFmgn3e_X_oPv2m5ExHXIhBrUnQr9jrv8UzARfJBlNCGX6WE3g2jQ62gzNs13tOq8Erb0FkXjtkwF4L_3zHnSR7yDaRO1XthswYqhWlhdIHi5i0nT0nCJumlwylZXNi5iVwE0I8qfxzlNipXpqDW2p5BCGoG9cPRUwOhfm-RJcCfLymP8cy5ACMVA" alt="La Robe Céleste d'Amour" />
+              <span class="men-card-category">Archival N° 02</span>
+              <span class="gown-hover-badge">Bespoke MTM</span>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <span class="men-card-tag">Sculpted Mermaid</span>
+                <span class="men-card-price">From €7,200</span>
+              </div>
+              <h2 class="men-card-title">La Robe Céleste d'Amour</h2>
+              <p class="men-card-desc">Heavy 40-ply Lyon Silk Crepe with illusion back hand-appliquéd with Caudry lace pearls and a sweeping 2.4m cathedral train.</p>
+              <div class="men-card-footer">
+                <span class="men-card-price" style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-on-surface-variant); font-weight: 600;">180h Craft · Lyon Silk</span>
+                <a href="contact.html" class="men-card-link">
+                  Book a Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gown 02 -->
+          <article class="men-card" data-category="ballgown">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_lqHhzTaEz5iEAovgrqc5cE9HIp35elZRsBk5KHWbN8vD3M_Vku61dEzIiqxPMZf66Q71qxqWZHUgG-ey4XwBeQWwIRCikYyiJVecTrTfaSUNaVyIMakqiizBTLby7qz6Q8PJXNych5NJFSFkgy1K8jElqQsFYIycQoaLD4KZli1qMh1nneG2g9v_lCBvVoFvwRnPubYQN83d7om1m7v-7a0PCqkn8-QHwF1VJzo" alt="L'Étoile Faubourg Ball Gown" />
+              <span class="men-card-category">Archival N° 05</span>
+              <span class="gown-hover-badge">Full Bespoke</span>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <span class="men-card-tag">Grand Watteau Ball Gown</span>
+                <span class="men-card-price">From €8,900</span>
+              </div>
+              <h2 class="men-card-title">L'Étoile Faubourg Ball Gown</h2>
+              <p class="men-card-desc">Multi-layered diaphanous silk tulle, French corset bodice with golden bullion thread embroidery and drop-waist drape.</p>
+              <div class="men-card-footer">
+                <span style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-on-surface-variant); font-weight: 600;">220h Craft · Gold Thread</span>
+                <a href="contact.html" class="men-card-link">
+                  Book a Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gown 03 -->
+          <article class="men-card" data-category="aline">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPEHRiPnYtvocl_DXJ_XM_glYHNZEhe5mTf81fa0uidRr7AsNFQOa51h98H-_EeGvAjvGaAJ7ZSL4vQq-DUEt074XAvEkMwsVOtvz5lmAhKywebRETs8Sg7cx6KMSzQ0BG5LUaJ5HY3KCVPsN5rslFm9YdmHScgR06rmBiBd5KvikaSYazQS--wsPWYDlwQMOqO9mDLYQ-GYLHg5JPoE91LorrIOcj7LQNUyUdDgY" alt="Sérénade en Dentelle Chantilly" />
+              <span class="men-card-category">Archival N° 09</span>
+              <span class="gown-hover-badge">Bespoke MTM</span>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <span class="men-card-tag">Fluid A-Line</span>
+                <span class="men-card-price">From €6,800</span>
+              </div>
+              <h2 class="men-card-title">Sérénade en Dentelle Chantilly</h2>
+              <p class="men-card-desc">Delicate high-neck Victorian-Parisian silhouette with scalloped eyelash French lace and draped silk chiffon overskirt.</p>
+              <div class="men-card-footer">
+                <span style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-on-surface-variant); font-weight: 600;">150h Craft · Chantilly</span>
+                <a href="contact.html" class="men-card-link">
+                  Book a Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gown 04 -->
+          <article class="men-card" data-category="minimalist">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaaToaKo8wy1hCSYUfLoUMZ3bh_20uhImjY3nLLRvihcree85bPdR8yrnHkwQ-YOVZeyRNEn1wi4s1cHvQKBAT6OAUftIklKNgDF_1bdaeWdsyArcvCxnJKAQ7YfGEN5x2WpAYLcAoqyYRTWsuTC1sEQCQcCXql6GLYSdoxO4ZN7Wl3-3fbuq6KXAywXFS7dRZmT0IYoMmbDh6S-m_ky20vLk0LqQv6Jsi7NTPtBA" alt="Le Sacre Drop-Waist Column" />
+              <span class="men-card-category">Archival N° 12</span>
+              <span class="gown-hover-badge">Bespoke MTM</span>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <span class="men-card-tag">Parisian Column &amp; Cape</span>
+                <span class="men-card-price">From €6,400</span>
+              </div>
+              <h2 class="men-card-title">Le Sacre Drop-Waist Column</h2>
+              <p class="men-card-desc">Minimalist matte silk mikado column dress with detachable pleated silk organza cathedral wing cape and architectural neckline.</p>
+              <div class="men-card-footer">
+                <span style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-on-surface-variant); font-weight: 600;">120h Craft · Royal Mikado</span>
+                <a href="contact.html" class="men-card-link">
+                  Book a Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gown 05 -->
+          <article class="men-card" data-category="aline">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPe1ZOlAwbbMemw_5k4vbK3_mAVEdfNnsrs1zxf2RmGcQOffbUJBs14RbcAO0zQ5yFyFOIP1gGd7N_-M-7Pp_RAeNkimIuKq9SYZ_3XY6Qwc9R76OBanxD4Ie5GFQnZNDHajXNUWLUKE6OgY4vDMSdB9wENMsPEdqZ2XUSsywhwFNMX3UkO8QkNxf95KD3rSO6KkbJ6FflijDIdIMvG7kj9JR8IOGKmVa78rIvRVU" alt="Monceau Floral Broderie" />
+              <span class="men-card-category">Archival N° 15</span>
+              <span class="gown-hover-badge">Bespoke MTM</span>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <span class="men-card-tag">Botanical Romantique A-Line</span>
+                <span class="men-card-price">From €7,800</span>
+              </div>
+              <h2 class="men-card-title">Monceau Floral Broderie</h2>
+              <p class="men-card-desc">Three-dimensional hand-embroidered organza florals blooming across a sheer corseted bodice down to an airy silk gazare skirt.</p>
+              <div class="men-card-footer">
+                <span style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-on-surface-variant); font-weight: 600;">190h Craft · 3D Florals</span>
+                <a href="contact.html" class="men-card-link">
+                  Book a Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Gown 06 -->
+          <article class="men-card" data-category="minimalist">
+            <div class="men-card-media">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkr4uHxwL4udOucWLM8G1bNwx503NkmORmxJiKDm61bBCcmfp7sseAW9HkkomIIGfI8bcv970QO7Vq0LjtZ_sNd8plMlJCjkRXnwksb6Nae1zcfdlJ90KA9aq01QH0M6qv7Qb8Br8Oo_P8UrtFCg4ZqiY5-6l8IKexR5XO5yPqnilqfmUiKzuwhelR-gVHyM3awBrmvGPmxo9dlbz7MNJTHm9tniTHAPa_hBEAkBE" alt="Palais-Royal Pleated Siren" />
+              <span class="men-card-category">Archival N° 18</span>
+              <span class="gown-hover-badge">Bespoke MTM</span>
+            </div>
+            <div class="men-card-body">
+              <div class="men-card-top">
+                <span class="men-card-tag">Bias-Cut Sheath</span>
+                <span class="men-card-price">From €5,900</span>
+              </div>
+              <h2 class="men-card-title">Palais-Royal Pleated Siren</h2>
+              <p class="men-card-desc">Fluid bias-cut double silk georgette with soleil micro-pleating, cowl open back with draping Freshwater pearl strand jewel.</p>
+              <div class="men-card-footer">
+                <span style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--color-on-surface-variant); font-weight: 600;">130h Craft · Soleil Pleats</span>
+                <a href="contact.html" class="men-card-link">
+                  Book a Fitting <span class="material-symbols-outlined">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ---------- ANATOMY SPOTLIGHT ---------- -->
+      <section class="anatomy-section">
+        <div class="anatomy-inner">
+          <div class="anatomy-header">
+            <div class="anatomy-header-main">
+              <span class="eyebrow text-secondary">Haute Couture Deconstruction</span>
+              <h2>The Architecture of 'La Robe Céleste'</h2>
+            </div>
+            <p>Excellence lies invisible within. Each seam, internal boneless channel, and lace placement follows our signature Parisian anatomical blueprint.</p>
+          </div>
+
+          <div class="anatomy-grid">
+            <!-- Media Triptych -->
+            <div class="anatomy-media">
+              <div class="anatomy-image-large">
+                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBU5gTd0GMQONi9F-wcNSUA4yjTsTcRDEKWaCoKsk7FtCL_-K43pblv0Ubx6gUcvw2KeQNxzNXgA3qRDe1ZniKovneYUKPaKOpVTjHgWIwX-xHBHxQZiYnitGPkojQHbs78gzJL--bdNgWoyL4HBFN2jHchnyP6hqHw1ZyuQuwvV_tMjibG6hvROmKMlBjd5OQa_Ennr6xaNRGafM5Khh5gUiAyeLoackllsNkA7Lo" alt="01. Calais Appliqué" />
+                <span class="anatomy-image-label">01. Calais Appliqué</span>
+              </div>
+              <div class="anatomy-image-stack">
+                <div class="anatomy-image-small">
+                  <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsCx9X8aXKDIm-DQPGq2GDBS_FtCktTu9XTEU68GWZPwe4LLCUwrpoIayYRPPwttdvZyXpYveUDPTK70sYaZoRtiv_P5oiv1oYYk3rBC3eL9AYhzsQZSHVInpF5haXFLn6ASQK-hnd1G3J-z3cdNcaVQYtAgw0kkh8J-ccJdPVPJ4kL0q8TfEcr2g8bL9QM22eRDKTwUlKlf_RHOcU-IcvPfn1cNAu1cngzZxoKBQ" alt="02. Organza Corsetry" />
+                  <span class="anatomy-image-label">02. Organza Corsetry</span>
+                </div>
+                <div class="anatomy-image-small">
+                  <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBg6-I2ezotJqN2W8R4tVVnLj7YPYN22BbuC2YBfWZLOEPsQDYlEtrbpqdi9sLG0gnh6sPuzskqRQNKNO9og5CbaNPppLtsHu-hEYgQ-D-wV_L0fzvWQ4y3RxGLtmbiIIQNSa7odMNaNyuxP9Kt_Ve2kcFxu175OzO-hmxPB6SSd49KHq1qjJdz89YL9W1HEs6ZsDMgc7J2EltfO9rSMuO8a5wDhUabwZTdyR8Cdyo" alt="03. Rouleau Buttons" />
+                  <span class="anatomy-image-label">03. Rouleau Buttons</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Provenance Card -->
+            <div class="anatomy-card">
+              <div class="anatomy-card-header">
+                <span>Provenance &amp; Specifications</span>
+                <span>Piece N° 2026-C02</span>
+              </div>
+
+              <div class="anatomy-spec-list">
+                <div class="anatomy-spec-row">
+                  <span>Primary Weave</span>
+                  <span>40-Ply Lyon Silk Crepe (180g)</span>
+                </div>
+                <div class="anatomy-spec-row">
+                  <span>Archival Lace</span>
+                  <span>Dentelle de Caudry (Heirloom)</span>
+                </div>
+                <div class="anatomy-spec-row">
+                  <span>Internal Support</span>
+                  <span>Triple-Layer Bone-Free Organza</span>
+                </div>
+                <div class="anatomy-spec-row">
+                  <span>Handwork Dedication</span>
+                  <span>180 Registered Atelier Hours</span>
+                </div>
+              </div>
+
+              <div class="anatomy-inclusions">
+                <span class="anatomy-inclusions-label">Commission Inclusions</span>
+                <ul class="anatomy-inclusions-list">
+                  <li>
+                    <span class="material-symbols-outlined">check</span>
+                    4 Private Fittings in Faubourg Saint-Honoré
+                  </li>
+                  <li>
+                    <span class="material-symbols-outlined">check</span>
+                    Personalized Heirloom Veil embroidered with gold vows
+                  </li>
+                  <li>
+                    <span class="material-symbols-outlined">check</span>
+                    Bespoke Cedarwood Archival Preservation Trunk
+                  </li>
+                </ul>
+              </div>
+
+              <a href="contact.html" class="anatomy-cta">Inquire This Silhouette</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- BESPOKE JOURNEY ---------- -->
+      <section class="journey-section">
+        <div class="journey-inner">
+          <div class="journey-header">
+            <span class="eyebrow text-secondary">From Silhouette Vision to Altar</span>
+            <h2>The Bespoke Bridal Journey</h2>
+            <p>An intimate collaboration unfolding across our historic Parisian salon, ensuring unhurried perfection for your wedding day.</p>
+          </div>
+
+          <div class="journey-grid">
+            <div class="journey-step">
+              <div class="journey-step-body">
+                <div class="journey-step-top">
+                  <span class="journey-step-num">01</span>
+                </div>
+                <span class="journey-step-stage">Initial Consultation</span>
+                <h3 class="journey-step-title">Private Vision &amp; Champagne</h3>
+                <p class="journey-step-desc">A 90-minute styling salon with Head Designer Julien Moreau. Review archival sketches, drape raw silk swatches, and define your personal silhouette code.</p>
+              </div>
+              <div class="journey-step-footer">Week 01 · Paris Salon</div>
+            </div>
+
+            <div class="journey-step">
+              <div class="journey-step-body">
+                <div class="journey-step-top">
+                  <span class="journey-step-num">02</span>
+                </div>
+                <span class="journey-step-stage">Architecture</span>
+                <h3 class="journey-step-title">Anatomical Toile Fitting</h3>
+                <p class="journey-step-desc">We sculpt a prototype in raw French calico cotton directly onto your body to pinpoint posture, seam dynamics, and effortless arm movement.</p>
+              </div>
+              <div class="journey-step-footer">Week 04–06 · Calico Draft</div>
+            </div>
+
+            <div class="journey-step">
+              <div class="journey-step-body">
+                <div class="journey-step-top">
+                  <span class="journey-step-num">03</span>
+                </div>
+                <span class="journey-step-stage">Artisanship</span>
+                <h3 class="journey-step-title">Haute Couture Silk Assembly</h3>
+                <p class="journey-step-desc">Our petites mains hand-cut the final Lyon silks, applying micro lace flourishes, bone-free organza structuring, and hand-strung seed pearls.</p>
+              </div>
+              <div class="journey-step-footer">Week 08–16 · 180+ Hand Hours</div>
+            </div>
+
+            <div class="journey-step">
+              <div class="journey-step-body">
+                <div class="journey-step-top">
+                  <span class="journey-step-num">04</span>
+                </div>
+                <span class="journey-step-stage">The Reveal</span>
+                <h3 class="journey-step-title">Final Dressing &amp; Blessing</h3>
+                <p class="journey-step-desc">The finished gown is tested with your wedding shoes, train choreography rehearsed, and carefully placed inside your bespoke archival trunk.</p>
+              </div>
+              <div class="journey-step-footer">Week 18–20 · Ready to Wed</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- DESTINATION CONCIERGE ---------- -->
+      <section class="concierge-section">
+        <div class="concierge-inner">
+          <div class="concierge-body">
+            <span class="eyebrow text-secondary">Worldwide Delivery &amp; Styling</span>
+            <h2>White-Glove Bridal Concierge for Destination Nuptials</h2>
+            <p>From the regal gardens of Château de Chantilly to the serene waters of Villa Balbiano in Lake Como, the Amalfi Coast, and Cap d'Antibes—our dedicated bridal courtiers travel worldwide to ensure your silhouette arrives in absolute immaculate form.</p>
+
+            <div class="concierge-features">
+              <div class="concierge-feature">
+                <span class="material-symbols-outlined">flight_takeoff</span>
+                <div class="concierge-feature-body">
+                  <span class="concierge-feature-title">Hand-Carried Transit</span>
+                  <span class="concierge-feature-desc">Personalized flight courier in protective pressurized garments.</span>
+                </div>
+              </div>
+              <div class="concierge-feature">
+                <span class="material-symbols-outlined">dry_cleaning</span>
+                <div class="concierge-feature-body">
+                  <span class="concierge-feature-title">On-Site Master Pressing</span>
+                  <span class="concierge-feature-desc">Delicate French steam revitalization prior to morning preparations.</span>
+                </div>
+              </div>
+              <div class="concierge-feature">
+                <span class="material-symbols-outlined">auto_fix_high</span>
+                <div class="concierge-feature-body">
+                  <span class="concierge-feature-title">Day-of Atelier Dressing</span>
+                  <span class="concierge-feature-desc">Senior Lunair seamstress assists with veil pinning &amp; bustle fastening.</span>
+                </div>
+              </div>
+              <div class="concierge-feature">
+                <span class="material-symbols-outlined">box</span>
+                <div class="concierge-feature-body">
+                  <span class="concierge-feature-title">Post-Vow Archival Care</span>
+                  <span class="concierge-feature-desc">Heirloom museum conservation and silk preservation return.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="concierge-media">
+            <div class="concierge-media-frame">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS35jQayRJer5dLNS_KfI8FnhsMCZT7I79FcQT-JnojHXR2PI0EUcGSTzsPHaYdYlsTz3ph-jIPMMztJGvRpUI0aFnkYSAjUN17WVLkGoV_Kdoqlk2_e-WQuBMQb-4qRQCO1SFX_ziKO8Q-IYvOgTYbaT_H3ZzuA-asYpmxiC6QJHi7HL5IpHx7bTk11cnfLJx6A71807EsKcvtQifkDs3wLJJulFZK0GzQdX9jEg" alt="Destination Wedding Lake Como" />
+            </div>
+            <div class="concierge-quote-card">
+              <span class="eyebrow">Destination Portfolio</span>
+              <p>“To step onto the villa terrace knowing your gown was hand-fluffed by its maker is pure tranquility.”</p>
+              <span class="author">— Lady Genevieve, Lake Como</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------- CLOSING CTA ---------- -->
+      <section class="closing-cta">
+        <div class="closing-cta-inner">
+          <div class="closing-cta-line"></div>
+          <span class="eyebrow text-secondary" style="letter-spacing: 0.26em;">Limited Seasonal Salon Registry</span>
+          <h2>Commission Your Dream Bridal Gown with Julien Moreau &amp; Madame de Lunel</h2>
+          <p>
+            To preserve uncompromised haute couture perfection and individual attention, our Faubourg Saint-Honoré atelier accepts only <strong>20 bespoke bridal commissions</strong> each season. Recommended lead time: 16–24 weeks.
+          </p>
+          <div class="closing-cta-actions">
+            <a href="contact.html" class="btn btn--primary">Book Atelier Fitting in Paris</a>
+            <a href="contact.html" class="btn" style="background-color: var(--color-surface-container-lowest); color: var(--color-on-surface);">Schedule Virtual Bridal Consultation</a>
+          </div>
+          <div class="closing-cta-meta">
+            <div class="closing-cta-meta-item">
+              <span class="material-symbols-outlined">location_on</span>
+              <span>18 Rue du Faubourg Saint-Honoré, Paris</span>
+            </div>
+            <span class="closing-cta-meta-sep">•</span>
+            <a class="closing-cta-meta-link" href="tel:+33142685500">
+              <span class="material-symbols-outlined">call</span>
+              +33 1 42 68 55 00
+            </a>
+            <span class="closing-cta-meta-sep">•</span>
+            <a class="closing-cta-meta-link" href="#">
+              <span class="material-symbols-outlined">chat_bubble</span>
+              WhatsApp Atelier Concierge
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-brand-row">
+            <img alt="Lunair Atelier Logo"
+                 src="https://lh3.googleusercontent.com/aida/ALJJyrBITFURlPIqtC_SgsFTtdDCk5y5gxR5q6C8rBlNUEVeB5dvrodWLPYG5x-qph4yQRxiM8f83Q_Wax0hekJeUtmMPJQnqVkDMOvAS1qMxwdGDbdGCRVsDwn6nX2TcfcCpa6dk564JLIGGFHgvZrHTLVm2TmhPWMqobUew8uvAWv6dhOxSZpjjGq_faBLdWM_01yl0V_Kg2DEw4dnYjCdOB1eOlb6YbVlhdwYu4qGer4" />
+            <span class="footer-brand-name">Lunair Atelier</span>
+          </div>
+          <p class="footer-brand-desc">Where Every Vow Deserves a Perfect Silhouette · 18 Rue du Faubourg Saint-Honoré, Paris</p>
+          <div class="footer-hours">
+            <span class="eyebrow">Salon Hours</span>
+            <p>Tuesday to Saturday: 10:00 — 19:00 (By Appointment Only)</p>
+            <a href="#" class="footer-link" style="display: inline-flex; align-items: center; gap: 0.375rem; color: var(--color-secondary); font-size: 11px; letter-spacing: 0.15em; font-weight: 600; text-transform: uppercase; padding-top: 0.5rem;">
+              <span class="material-symbols-outlined" style="font-size: 16px;">chat_bubble</span> WhatsApp Concierge
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <span class="eyebrow">Collections</span>
+          <a class="footer-link" href="women.html">The Bridal Collection</a>
+          <a class="footer-link" href="men.html">The Groom Collection</a>
+          <a class="footer-link" href="#">Bespoke &amp; Alterations</a>
+        </div>
+
+        <div class="footer-col">
+          <span class="eyebrow">The Atelier</span>
+          <a class="footer-link" href="about.html">Our Story</a>
+          <a class="footer-link" href="#">Private Consultation</a>
+          <a class="footer-link" href="#">Press &amp; Editorial</a>
+        </div>
+
+        <div class="footer-newsletter">
+          <span class="eyebrow">Salon Previews</span>
+          <p class="footer-brand-desc" style="font-size: 13px; line-height: 20px;">Receive Private Salon Previews and invitations to bespoke couture fittings.</p>
+          <form class="newsletter-form">
+            <div class="newsletter-input-wrap">
+              <input type="email" placeholder="Your email address" />
+              <button type="submit">Join</button>
+            </div>
+            <span class="newsletter-disclaimer">Respecting strict Parisian privacy standards.</span>
+          </form>
+          <div class="social-links">
+            <a aria-label="Instagram" href="#"><span class="material-symbols-outlined">photo_camera</span></a>
+            <a aria-label="Pinterest" href="#"><span class="material-symbols-outlined">push_pin</span></a>
+            <a aria-label="Vogue Showcase" href="#"><span class="material-symbols-outlined">auto_stories</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2026 Lunair Atelier Paris. All rights reserved. GDPR compliant.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Legal Notices</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ SCRIPT ============ -->
+  <script>
+    // 1. Silhouette filter tabs (visual + filter cards)
+    const filterTabs = document.querySelectorAll('#silhouetteTabs .filter-tab-btn');
+    const gownCards = document.querySelectorAll('#productGallery .men-card');
+
+    filterTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        filterTabs.forEach(t => t.classList.remove('is-active'));
+        tab.classList.add('is-active');
+
+        const filter = tab.getAttribute('data-filter');
+        gownCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // 2. Filter drawer toggle
+    const toggleBtn = document.getElementById('filterToggleBtn');
+    const drawer = document.getElementById('filterDrawer');
+    if (toggleBtn && drawer) {
+      toggleBtn.addEventListener('click', () => {
+        drawer.classList.toggle('is-open');
+      });
+    }
+
+    // 3. View mode toggle (Grid ↔ Lookbook)
+    const viewGrid = document.getElementById('viewGrid');
+    const viewLookbook = document.getElementById('viewLookbook');
+    const gallery = document.getElementById('productGallery');
+
+    if (viewGrid && viewLookbook && gallery) {
+      viewLookbook.addEventListener('click', () => {
+        gallery.classList.add('is-lookbook');
+        viewLookbook.classList.add('is-active');
+        viewGrid.classList.remove('is-active');
+      });
+
+      viewGrid.addEventListener('click', () => {
+        gallery.classList.remove('is-lookbook');
+        viewGrid.classList.add('is-active');
+        viewLookbook.classList.remove('is-active');
+      });
+    }
+  </script>
+
+</body>
+</html>
